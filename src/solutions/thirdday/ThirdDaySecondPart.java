@@ -14,12 +14,16 @@ public class ThirdDaySecondPart {
         int step = 1;
         int value = 0;
         while (value <= input) {
+
             for (int m = 0; m < 2; m++) {
                 for (int j = 0; j < step; j++) {
-                    if (isX && !(step % 2 == 0)) x++;
-                    else if (isX && (step % 2 == 0)) x--;
-                    else if (!isX && !(step % 2 == 0)) y++;
-                    else if (!isX && (step % 2 == 0)) y--;
+                    if (isX) {
+                        if (!(step % 2 == 0)) x++;
+                        else x--;
+                    } else {
+                        if (!(step % 2 == 0)) y++;
+                        else y--;
+                    }
 
                     Coordinate currentCoordinate = new Coordinate(x, y);
                     value = 0;
@@ -43,7 +47,8 @@ public class ThirdDaySecondPart {
     }
 
     private void changeX() {
-        if (isX) isX = false;
-        else isX = true;
+        isX = !isX;
     }
+
+
 }

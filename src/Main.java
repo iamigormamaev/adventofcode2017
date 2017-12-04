@@ -19,10 +19,10 @@ public class Main {
 //        secondDay.secondPart(utils.getTwoDimensionalArrayFromConsole());
 
 //        new ThirdDayFirstPart().solution(21);
-//        new ThirdDaySecondPart().solution(143);
+//        new ThirdDaySecondPart().solution(146);
 
 //        new FourthDay().firstPart(utils.getOneDimensionalStringArrayFromConsole());
-          new FourthDay().secondPart(utils.getOneDimensionalStringArrayFromConsole());
+        new FourthDay().secondPart(utils.getOneDimensionalStringArrayFromConsole());
     }
 
 
