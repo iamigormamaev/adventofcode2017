@@ -40,4 +40,20 @@ public class Utils {
         in.close();
         return resultArray;
     }
+
+    public String[] getOneDimensionalStringArrayFromConsole() {
+        Scanner in = new Scanner(new InputStreamReader(System.in));
+        List<String> strings = new ArrayList<>();
+
+        String s = in.nextLine();
+
+        while (!s.isEmpty()) {
+            strings.add(s);
+            s = in.nextLine();
+        }
+
+        in.close();
+
+        return strings.toArray(new String[strings.size()]);
+    }
 }

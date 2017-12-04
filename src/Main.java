@@ -1,4 +1,5 @@
 import solutions.FirstDay;
+import solutions.FourthDay;
 import solutions.SecondDay;
 import solutions.thirdday.ThirdDayFirstPart;
 import solutions.thirdday.ThirdDaySecondPart;
@@ -16,8 +17,10 @@ public class Main {
 //        secondDay.firstPart(utils.getTwoDimensionalArrayFromConsole());
 //        secondDay.secondPart(utils.getTwoDimensionalArrayFromConsole());
 
-        new ThirdDayFirstPart().solution(21);
-        new ThirdDaySecondPart().solution(143);
+//        new ThirdDayFirstPart().solution(21);
+//        new ThirdDaySecondPart().solution(143);
+
+        new FourthDay().firstPart(utils.getOneDimensionalStringArrayFromConsole());
 
     }
 
