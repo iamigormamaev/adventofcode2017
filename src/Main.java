@@ -1,3 +1,4 @@
+import solutions.FifthDay;
 import solutions.FirstDay;
 import solutions.FourthDay;
 import solutions.SecondDay;
@@ -22,7 +23,9 @@ public class Main {
 //        new ThirdDaySecondPart().solution(146);
 
 //        new FourthDay().firstPart(utils.getOneDimensionalStringArrayFromConsole());
-        new FourthDay().secondPart(utils.getOneDimensionalStringArrayFromConsole());
+//        new FourthDay().secondPart(utils.getOneDimensionalStringArrayFromConsole());
+
+        new FifthDay().firstPart(utils.getOneDimensionalIntArrayFromConsole());
     }
 
 

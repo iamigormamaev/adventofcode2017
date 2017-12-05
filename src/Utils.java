@@ -56,4 +56,19 @@ public class Utils {
 
         return strings.toArray(new String[strings.size()]);
     }
+
+    public int[] getOneDimensionalIntArrayFromConsole() {
+        Scanner in = new Scanner(new InputStreamReader(System.in));
+        List<Integer> integerList = new ArrayList<>();
+
+        String s = in.nextLine();
+
+        while (!s.isEmpty()) {
+            integerList.add(Integer.parseInt(s));
+            s = in.nextLine();
+        }
+
+        in.close();
+        return integerList.stream().mapToInt(i -> i).toArray();
+    }
 }
