@@ -25,7 +25,8 @@ public class Main {
 //        new FourthDay().firstPart(utils.getOneDimensionalStringArrayFromConsole());
 //        new FourthDay().secondPart(utils.getOneDimensionalStringArrayFromConsole());
 
-        new FifthDay().firstPart(utils.getOneDimensionalIntArrayFromConsole());
+//        new FifthDay().firstPart(utils.getOneDimensionalIntArrayFromConsole());
+        new FifthDay().secondPart(utils.getOneDimensionalIntArrayFromConsole());
     }
 
 
