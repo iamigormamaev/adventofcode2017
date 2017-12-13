@@ -32,8 +32,10 @@ public class Main {
 //        new SeventhDay().secondPart(utils.getOneDimensionalStringArrayFromConsole());
 
 //        new EighthDay().firstPart(utils.getOneDimensionalStringArrayFromConsole());
-        new EighthDay().secondPart(utils.getOneDimensionalStringArrayFromConsole());
+//        new EighthDay().secondPart(utils.getOneDimensionalStringArrayFromConsole());
+
+ //      new NinthDay().firstPart(utils.getOneDimensionalStringArrayFromConsole()[0]);
+        new NinthDay().secondPart(utils.getOneDimensionalStringArrayFromConsole()[0]);
+
     }
-
-
 }
