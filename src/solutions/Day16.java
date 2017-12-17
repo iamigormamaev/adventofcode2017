@@ -14,12 +14,12 @@ public class Day16 {
     public void secondPart(String input) {
         String[] commands = input.split(",");
         List<Character> programs = initPrograms();
-        int cycleLoopCount = findCycleLoopCount(programs, commands, 1);
+        int cycleLoopCount = findCycleLoopCount(programs, commands);
         programs = doCommands(programs, commands, 1000000000 % cycleLoopCount);
         System.out.println(programs);
     }
 
-    private int findCycleLoopCount(List<Character> programs, String[] commands, int cycleCount) {
+    private int findCycleLoopCount(List<Character> programs, String[] commands) {
         List<Character> programsCopyForWork = new ArrayList<>(programs);
         List<Character> programsCopyOriginal = new ArrayList<>(programs);
 
