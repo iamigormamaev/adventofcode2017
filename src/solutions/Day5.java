@@ -1,6 +1,6 @@
 package solutions;
 
-public class FifthDay {
+public class Day5 {
 
     public void firstPart(int[] inputArray) {
         solution(inputArray, false);

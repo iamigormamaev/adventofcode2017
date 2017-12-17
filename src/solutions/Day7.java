@@ -2,7 +2,7 @@ package solutions;
 
 import java.util.*;
 
-public class SeventhDay {
+public class Day7 {
     private Map<String, TreePart> haveChildrenMap = new HashMap<>();
     private Map<String, TreePart> allTreePartsMap = new HashMap<>();
 
@@ -184,7 +184,7 @@ public class SeventhDay {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        SeventhDay that = (SeventhDay) o;
+        Day7 that = (Day7) o;
 
         if (haveChildrenMap != null ? !haveChildrenMap.equals(that.haveChildrenMap) : that.haveChildrenMap != null)
             return false;

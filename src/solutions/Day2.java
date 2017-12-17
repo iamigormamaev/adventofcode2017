@@ -1,6 +1,6 @@
 package solutions;
 
-public class SecondDay {
+public class Day2 {
 
     public void firstPart(int[][] inputArray) {
         int result = 0;

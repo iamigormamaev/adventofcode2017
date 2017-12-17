@@ -1,6 +1,4 @@
 import solutions.*;
-import solutions.thirdday.ThirdDayFirstPart;
-import solutions.thirdday.ThirdDaySecondPart;
 
 public class Main {
 
@@ -8,36 +6,37 @@ public class Main {
 
         Utils utils = new Utils();
 
-//        FirstDay firstDay = new FirstDay();
-//        firstDay.firstPart(utils.getOneDimensionalArrayFromConsole());
-//        firstDay.secondPart(utils.getOneDimensionalArrayFromConsole());
+//        Day1 firstDay = new Day1();
+//        new Day1().firstPart(utils.getOneDimensionalArrayFromConsole());
+//        new Day1().secondPart(utils.getOneDimensionalArrayFromConsole());
 
-//        SecondDay secondDay = new SecondDay();
-//        secondDay.firstPart(utils.getTwoDimensionalArrayFromConsole());
-//        secondDay.secondPart(utils.getTwoDimensionalArrayFromConsole());
+//        new Day2().firstPart(utils.getTwoDimensionalArrayFromConsole());
+//        new Day2().secondPart(utils.getTwoDimensionalArrayFromConsole());
 
-//        new ThirdDayFirstPart().solution(21);
-//        new ThirdDaySecondPart().solution(146);
+//        new Day3().firstPart(21);
+//        new Day3().secondPart(146);
 
-//        new FourthDay().firstPart(utils.getOneDimensionalStringArrayFromConsole());
-//        new FourthDay().secondPart(utils.getOneDimensionalStringArrayFromConsole());
+//        new Day4().firstPart(utils.getOneDimensionalStringArrayFromConsole());
+//        new Day4().secondPart(utils.getOneDimensionalStringArrayFromConsole());
 
-//        new FifthDay().firstPart(utils.getOneDimensionalIntArrayFromConsole());
-//        new FifthDay().secondPart(utils.getOneDimensionalIntArrayFromConsole());
+//        new Day5().firstPart(utils.getOneDimensionalIntArrayFromConsole());
+//        new Day5().secondPart(utils.getOneDimensionalIntArrayFromConsole());
 
-//        new SixthDay().firstPart(utils.getOneDimensionalIntArrayFromConsole());
-//        new SixthDay().secondPart(utils.getOneDimensionalIntArrayFromConsole());
+//        new Day6().firstPart(utils.getOneDimensionalIntArrayFromConsole());
+//        new Day6().secondPart(utils.getOneDimensionalIntArrayFromConsole());
 
-//        new SeventhDay().firstPart(utils.getOneDimensionalStringArrayFromConsole());
-//        new SeventhDay().secondPart(utils.getOneDimensionalStringArrayFromConsole());
+//        new Day7().firstPart(utils.getOneDimensionalStringArrayFromConsole());
+//        new Day7().secondPart(utils.getOneDimensionalStringArrayFromConsole());
 
-//        new EighthDay().firstPart(utils.getOneDimensionalStringArrayFromConsole());
-//        new EighthDay().secondPart(utils.getOneDimensionalStringArrayFromConsole());
+//        new Day8().firstPart(utils.getOneDimensionalStringArrayFromConsole());
+//        new Day8().secondPart(utils.getOneDimensionalStringArrayFromConsole());
 
- //      new NinthDay().firstPart(utils.getOneDimensionalStringArrayFromConsole()[0]);
- //       new NinthDay().secondPart(utils.getOneDimensionalStringArrayFromConsole()[0]);
+//        new Day9().firstPart(utils.getOneDimensionalStringArrayFromConsole()[0]);
+//        new Day9().secondPart(utils.getOneDimensionalStringArrayFromConsole()[0]);
 
-//        new TenthDay().firstPart(utils.getOneDimensionalIntArrayFromConsole());
-        new TenthDay().secondPart(utils.getOneDimensionalStringArrayFromConsole()[0]);
+//        new Day10().firstPart(utils.getOneDimensionalIntArrayFromConsole());
+//        new Day10().secondPart(utils.getOneDimensionalStringArrayFromConsole()[0]);
+
+
     }
 }

@@ -2,7 +2,7 @@ package solutions;
 
 import java.util.*;
 
-public class FourthDay {
+public class Day4 {
 
     public void firstPart(String[] inputArray) {
         int result = 0;

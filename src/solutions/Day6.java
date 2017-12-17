@@ -5,7 +5,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 
-public class SixthDay {
+public class Day6 {
 
     public void firstPart(int[] inputArray) {
         System.out.println(solution(inputArray, true));

@@ -1,6 +1,6 @@
 package solutions;
 
-public class FirstDay {
+public class Day1 {
 
     public void firstPart(int[] inputArray) {
         int result = 0;

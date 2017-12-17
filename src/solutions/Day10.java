@@ -1,7 +1,7 @@
 package solutions;
 
 
-public class TenthDay {
+public class Day10 {
     int[] ADDITION_LENGTH = {17, 31, 73, 47, 23};
 
     public void firstPart(int[] inputArray) {

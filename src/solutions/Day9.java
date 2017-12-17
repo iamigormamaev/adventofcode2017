@@ -4,7 +4,7 @@ import java.util.Stack;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class NinthDay {
+public class Day9 {
 
 
     public void firstPart(String inputString) {
