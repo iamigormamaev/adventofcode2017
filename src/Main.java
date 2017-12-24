@@ -46,6 +46,9 @@ public class Main {
 //        new Day18().firstPart(utils.getOneDimensionalStringArrayFromConsole());
 
 //        new Day19().firstPart(utils.getOneDimensionalStringArrayFromConsole());
-        new Day19().secondPart(utils.getOneDimensionalStringArrayFromConsole());
+//        new Day19().secondPart(utils.getOneDimensionalStringArrayFromConsole());
+
+//        new Day24().firstPart(utils.getOneDimensionalStringArrayFromConsole());
+        new Day24().secondPart(utils.getOneDimensionalStringArrayFromConsole());
     }
 }
