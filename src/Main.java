@@ -38,7 +38,7 @@ public class Main {
 //        new Day10().secondPart(utils.getOneDimensionalStringArrayFromConsole()[0]);
 
 //        new Day12().firstPart(utils.getOneDimensionalStringArrayFromConsole());
-        new Day12().secondPart(utils.getOneDimensionalStringArrayFromConsole());
+//        new Day12().secondPart(utils.getOneDimensionalStringArrayFromConsole());
 
 //        new Day17().firstPart(348);
 //        new Day17().secondPart(348);
@@ -53,5 +53,7 @@ public class Main {
 
 //        new Day24().firstPart(utils.getOneDimensionalStringArrayFromConsole());
 //        new Day24().secondPart(utils.getOneDimensionalStringArrayFromConsole());
+
+        new Day25().firstPart(utils.getOneDimensionalStringArrayFromConsole());
     }
 }
