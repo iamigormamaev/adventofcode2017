@@ -1,8 +1,7 @@
 package solutions;
 
-
 public class Day10 {
-    int[] ADDITION_LENGTH = {17, 31, 73, 47, 23};
+    private int[] ADDITION_LENGTH = {17, 31, 73, 47, 23};
 
     public void firstPart(int[] inputArray) {
         int[] hashArray = initHashArray();
@@ -12,21 +11,26 @@ public class Day10 {
 
 
     public void secondPart(String s) {
+        System.out.println(knotHash(s));
+    }
+
+    public String knotHash(String s) {
         int[] lengths = stringToANCIIcodes(s);
         int[] hashArray = initHashArray();
         lengths = mergeArrays(lengths, ADDITION_LENGTH);
         hashArray = doRounds(hashArray, lengths, 64);
         int[] denseHash = getDenseHash(hashArray);
         String hash = arrayToHexString(denseHash);
-        System.out.println(hash);
+        return hash;
     }
 
     private String arrayToHexString(int[] array) {
         StringBuilder result = new StringBuilder();
         for (int i :
                 array) {
-            result.append(Integer.toHexString(i));
+            result.append(Integer.toHexString(i).length() == 1 ? "0" + Integer.toHexString(i) : Integer.toHexString(i));
         }
+
         return result.toString();
     }
 
